@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBackground"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn1"
+            android:id="@+id/btn1"
+            android:padding="10px"/>
+        <!--패딩은 버튼 사이의 여백-->
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10px"
+            android:text="@string/btn2" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn3"
+            android:id="@+id/btn3"
+            android:padding="10px"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn4"
+            android:id="@+id/btn4"
+            android:padding="10px"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activity 간의 데이터 전달"
+            android:id="@+id/btn5"
+            android:padding="10px"/>
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="다른 Activity로 부터 데이터 받기"
+        android:id="@+id/btn6"
+        android:padding="10px"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ANR(Application Not Responding"
+            android:id="@+id/btn7"
+            android:padding="10px"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CounterApp(실행 에러)"
+            android:id="@+id/btn8"
+            android:padding="10px"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Counter App(Handler)"
+            android:id="@+id/btn9"
+            android:padding="10px"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="도서 검색 및 출력"
+            android:id="@+id/btn10"
+            android:padding="10px"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="영화 검색 및 출력"
+            android:id="@+id/btn11"
+            android:padding="10px"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="흐아아아앙"
+            android:id="@+id/btn12"
+            android:padding="10px"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Implicit Intent(묵시적 인텐트)"
+            android:id="@+id/btn13"
+            android:padding="10px"/>
+
+
+    </LinearLayout>
+</ScrollView>
